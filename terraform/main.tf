@@ -2,7 +2,7 @@ provider "aws" {
   region = "ap-south-1"
 }
 
-resource "aws_security_group" "devops_sg" {
+resource "aws_security_group" "devops-server-sg" {
   name        = "devops-server-sg"
   description = "Security group for DevOps server"
 
