@@ -43,7 +43,7 @@ resource "aws_instance" "devops_server" {
   ami                    = "ami-0ddfba243cbee3768"
   instance_type          = "t3.micro"
   key_name               = "devops-key"
-  vpc_security_group_ids = [aws_security_group.devops_sg.id]
+  vpc_security_group_ids = [aws_security_group.devops-server-sg.id]
 
   tags = {
     Name = "Terraform-Jenkins-Server"
