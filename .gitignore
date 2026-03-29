@@ -1,1 +1,40 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+crash.log
+crash.*.log
+
+# Terraform provider binaries
+**/terraform-provider-*
+
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Node modules
 node_modules/
+npm-debug.log
+yarn-error.log
+
+# Docker
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
