@@ -1,4 +1,4 @@
-## 🔄 CI/CD Pipeline (Jenkins)!!
+## 🔄 CI/CD Pipeline (Jenkins)
 
 This project includes a fully automated Jenkins pipeline:
 
